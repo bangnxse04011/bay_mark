@@ -16,6 +16,7 @@
     "serve-favicon": "~2.4.5",
     "pg": "^7.4.1",
     "pg-hstore": "^2.3.2",
-    "sequelize": "^4.33.4"
+    "sequelize": "^4.33.4",
+    "passport" : "*"
   }
 }

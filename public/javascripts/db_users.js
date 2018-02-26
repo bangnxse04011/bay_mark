@@ -9,33 +9,5 @@ const User = connection_db.define('user', {
     email : { type : Sequelize.STRING }
 });
 
-// User.create({
-//     fullName : 'Nguyễn Xuân Bằng',
-//     email : 'bangnxse04011@fpt.edu.vn'
-// });
-
-// User.findOne().then(user => {
-//     console.log(user.get('email'));
-// })
-
-// User.findAll({
-//     where : {
-//         fullName : 'Nguyễn Xuân Bằng'
-//     }
-// }).then(users => {
-//     console.log('----------------------------');
-//     console.log(JSON.stringify(users));
-//     console.log('----------------------------');
-// });
-
-// User.findById(1)
-// .then(users => {
-//     console.log('----------------------------');
-//     console.log(JSON.stringify(users));
-//     console.log('----------------------------');
-// });
-
-// User.sync();
-
 module.exports = User;
 
