@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h1><%= title %></h1>
+    <p>Welcome to <%= user_login %></p>
+    <ul>
+      <% 
+        if(list_data.length > 0)
+          list_data.forEach(function(link) { 
+      %>
+        <h1><%=link.fullName%></h1>
+      <% }); %>
+    </ul>
+  </body>
+</html>
